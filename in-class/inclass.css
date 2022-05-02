@@ -1,0 +1,35 @@
+/*selector is the article you are changing*/
+
+body{
+    background-color:purple;
+}
+p{
+    width: 700px;
+    margin: 15px auto;
+    color: aliceblue;
+    /*margin moves the "box" and its contents across the screen*/
+}
+h1{
+    color: orangered; 
+    background-color: limegreen;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border: 6px double orangered;
+    margin: 50px 100px 50px 100px;
+    text-align: center;
+    /*text align is for the type*/
+}
+h2{
+    color:hotpink;
+    background-color: brown;
+}
+.thinner{
+    width: 500px;
+    line-height: 1.5em;
+    background-color: black;
+    /*line height is the space between each line*/
+}
+/*the # indicates an id instead of a class*/
+#myname{
+ font-size: 3em;
+}
