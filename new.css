@@ -1,0 +1,45 @@
+h1{
+    font-size: 2em;
+    background-position: wrap;
+}
+
+img{
+    float: right; 
+    border: double 5px;
+    border-radius: 15px;
+    width: 350px; 
+    padding: 5px;
+}
+
+.first {
+    color: white; 
+    background-color:blue; 
+    text-align: center;  
+    margin: 20px 50px ;
+    text-decoration: underline;
+}
+
+section {
+    margin: 50px;
+    background-color: lightgrey; 
+    border: solid 2px black;
+    border-radius: 30px ;
+    
+
+}
+.second {
+    color: orange; 
+    background-color: purple;
+    margin: 50px  ;
+    background-position: wrap;
+    text-align: center;
+    }
+
+.section {
+    color: orange;
+    margin-left: 2%;
+    text-decoration: underline black;
+}
+.clear {
+    clear:both;
+}

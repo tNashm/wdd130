@@ -1,0 +1,31 @@
+body{
+    background-color: magenta;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-weight: bolder;
+    font-size: 4em;
+}
+.first{
+    color: aliceblue;
+    align-items: center;
+}
+.list{
+    text-align: left;
+    margin-left: 40%;
+    font-weight: bold;
+}
+img{
+    align-items: center; 
+    height: 15%; width: 15%;
+    float: inherit;
+}
+h2{
+    color: aliceblue;
+    width: 40%;
+    margin-left: 30%;
+    font-size: 2em;
+    font-weight: 100;
+    font-family: 'Playfair Display', serif;
+}
