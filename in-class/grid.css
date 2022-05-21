@@ -1,0 +1,25 @@
+body{
+    background-color: palevioletred;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 350px 600px 600px; */
+    gap: 15px;
+}
+/* be careful about column vs columns. grid only affects direct children. img 100% will make it fit the grid no matter the size */
+#success{
+    background-color: chartreuse;
+    grid-column: 1/-1;
+}
+
+#first{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#last{
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 4fr;
+
+}
