@@ -241,3 +241,23 @@ footer h3 a:hover{
     opacity: .6;
     transform: scale(1.1);
 }
+
+.about-us{
+    align-items: center;
+}
+.about-us h1{
+    text-decoration: underline;
+    font-size: 2em;
+}
+.people{
+    height: 70%;
+    width: 70%;
+}
+.abt-msg{
+    text-align: center;
+    align-self: center;
+    margin-left: 25%;
+    width: 50%;
+    background-color: #de8a68;
+    font-size: 1.5em;
+}
