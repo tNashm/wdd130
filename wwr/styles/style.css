@@ -103,6 +103,7 @@ header{
 nav {
 display: flex;
     justify-content: space-around;
+    padding-top: 50px;
 }
 
 nav a{
@@ -120,12 +121,12 @@ nav a:hover{
 }
 
 .book{
-    background-color: #de8a68;
+    background-color: #fc6029;
     color: #010101;
     text-decoration: none;
     font-size: 2em;
     font-family: var(--heading-font);
-    border-radius: 50%;
+    border-radius: 10px;
     padding: 15px 30px;
     margin-top: 50px;
 }
@@ -136,7 +137,7 @@ nav a:hover{
     text-decoration: none;
     font-size: 2em;
     font-family: var(--heading-font);
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 15px 30px;
     margin-top: 50px;
 }
@@ -153,10 +154,17 @@ nav a:hover{
 
 .msg{
     background-color: #d9c2a3;
-    padding-bottom: 20px;
+    padding-bottom: 45px;
+    padding-top: 30px;
     grid-column: 7/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #6f736490;
+}
+
+.msg h2{
+    font-size: 1.8em;
+    border-bottom: solid 1px #6f736490;
+    padding-bottom: 10px;
 }
 
 .icon{
@@ -172,10 +180,12 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: .7em;
 }
 
 footer h3 a{
     text-decoration: none;
+    color: #010101;
 }
 
 footer h3 a:hover{
@@ -217,7 +227,7 @@ footer h3 a:hover{
 .mountains{
     grid-column: 2/6;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #6f736480;
 }
 
 .source1{
@@ -260,4 +270,14 @@ footer h3 a:hover{
     width: 50%;
     background-color: #de8a68;
     font-size: 1.5em;
+}
+
+.abt-msg h1{
+    font-weight: bold;
+    text-decoration: underline 2px;
+}
+
+#contact{
+    font-weight: bold;
+
 }
