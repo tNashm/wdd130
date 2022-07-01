@@ -1,0 +1,78 @@
+#post-time{
+    color: lightgray;
+    text-align: end;
+    justify-self: end;
+    
+}
+
+body{
+    width: 500px;
+    margin: 0 auto;
+}
+
+main{
+    margin-bottom: -5px;
+}
+header{
+    display: grid;
+    grid-template-columns: 100px 3fr 1fr 50px;
+    align-items: center;
+    justify-items: center; 
+    border-top: solid 2px black; 
+    border-left: solid 2px black; 
+    border-right: solid 2px black;  
+}
+
+#title{
+    justify-self: start;
+}
+
+.fa-solid fa-ellipsis-vertical{
+    justify-self: right;
+    text-align: center;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr 1fr 225px .5fr .5fr;
+    align-items: center;
+    justify-items: center;
+    padding-top: -5px;
+    border-bottom: solid 2px black; 
+    border-left: solid 2px black; 
+    border-right: solid 2px black;   
+}
+
+.fa-regular fa-bookmark{
+    grid-column: 1/2;
+}
+
+.fa-regular fa-heart{
+    grid-column: -1/-2;
+    margin-left: auto;
+}
+
+#comments{
+    grid-column: 4/5;
+    text-align: center;
+    font-weight: 700;
+    justify-self:start;
+}
+
+#likes{
+    grid-column: -2/-3;
+    text-align: center;
+    font-weight: 700;
+}
+
+#main-img{
+    width: 100%;
+}
+.fa-regular fa-heart{
+    margin-left: 0;
+}
+
+
+#profile-pic{
+    width: 70px;
+}
