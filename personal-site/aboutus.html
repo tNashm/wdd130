@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Straightedge</title>
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="styles/images/straightedge-logo.png" alt="Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="siteplan.html">Site Plan</a>
+            <a href="contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="box">
+        <button class="accordion">Sand Blasting</button>
+        <div class="panel">
+            <p>Using high velocity air and sand, blasting can clear paint, rust and powdercoat off of just about any metal you bring in. We will blast anything from autobody to a hitching post. Depending on the project and the size of what we are blasting, we have two different blasters. The big blaster works best for large metal, auto paint or prior coating.
+            The cabinet blaster works for smaller projects like bolts, smaller light fixtures 
+            </p>
+            <p class="rates">Our rates for blasting are: <br>Big Blaster: $130/hr <br>Cabinet Blaster: $65/hr</p>
+        </div>
+
+        <button class="accordion">Powder Coating</button>
+        <div class="panel">
+            <p>Lorem ipsum...</p>
+        </div>
+
+        <button class="accordion">Who We Are</button>
+        <div class="panel">
+            <p>Lorem ipsum...</p>
+        </div>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+
+    <footer>
+        <h3 >Straightedge Blsting & Coating &copy; 2022 - Tanner Meldrum</h3>
+        <h3> <a href="siteplan.html" class="link">Site Plan</a> </h3>
+        <h3> <a href="contact-us.html" class="link">Contact Us</a> </h3>
+            </a>
+        </div>
+    </footer>
+</body>
