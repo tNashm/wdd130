@@ -21,7 +21,10 @@
 
 body{
     background-color: rgb(227, 222, 215);
+    margin: 0;
 }
+
+/*  */
 
 #hero{
     display: grid;
@@ -34,6 +37,7 @@ header{
     background-color: #55df77;
     font-family: var(--heading-font);
     z-index: 2;
+    height: 150px;
 }
 
 #hero-img{
@@ -48,6 +52,8 @@ header{
     text-decoration: underline 3px;
     font-size: 2.5em;
 }
+
+/*  */
 
 .msg{
     border: solid #010101;
@@ -66,22 +72,30 @@ header{
     text-decoration: underline 2px;
 }
 
+/*  */
+
 nav {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
+    height: 150px
 }
 nav a{
     text-align: center;
     color: #060606;
-    text-decoration: none;
-    padding-top: 45px;
+    text-decoration: underline;
+    padding-top: 55px;
     font-size: 1.5em;
+    padding-left: 2%;
+    padding-right: 2%;
         
 }
     
 nav a:hover{
     background-color: #909090;
-    color: #060606;
+    color: #060606; 
+ 
+    
 }
 
 .logo{
@@ -89,21 +103,34 @@ nav a:hover{
     height: 55%
 }
 
-
+/*  */
 
 footer{
     font-family: var(--heading-font);
     background-color: #909090;
     padding: 25px 50px;
-    margin-top: 200px; 
+    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+#abt_us{
+    font-family: var(--heading-font);
+    background-color: #909090;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 19em;
+}
+
 footer, h3{
     font-size: .95em;
 }
+
+/*  */
 
 .link{
     background-color: #55df77;
@@ -190,6 +217,9 @@ form {
     display: grid;
     justify-items: center;
 }
+
+/*  */
+
 .accordion {
     background-color: #eee;
     color: #444;
@@ -200,6 +230,8 @@ form {
     border: none;
     outline: none;
     transition: 0.4s;
+    box-shadow: 5px 5px 10px #767676;
+
 }
 
 .active, .accordion:hover {
@@ -209,11 +241,14 @@ form {
 .panel {
     padding: 0 18px;
     width: 75%;
-    background-color: white;
+    background-color: #f5f5f5;
     display: none;
     overflow: hidden;
+    box-shadow: 5px 5px 10px #767676;
 }
 
 .rates{
     font-weight: bold;
 }
+
+/*  */
