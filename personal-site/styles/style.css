@@ -221,8 +221,8 @@ form {
 /*  */
 
 .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: #acacac;
+    text-decoration: underline 2px;
     cursor: pointer;
     padding: 18px;
     width: 75%;
@@ -235,12 +235,12 @@ form {
 }
 
 .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #909090;
   }
 
 .panel {
     padding: 0 18px;
-    width: 75%;
+    width: 72%;
     background-color: #f5f5f5;
     display: none;
     overflow: hidden;
